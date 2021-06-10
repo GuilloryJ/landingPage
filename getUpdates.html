@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Don't miss out on our newest features!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/getUpdates.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&family=Questrial&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+    <div id="mainContainer">
+        <div id="topSection">
+            <div id="topText">
+                <h1>Learn Chinese Mandarin from an expert!</h1>
+                <p>Learn Chinese Mandarin that you can actually use and avoid all the bad habits and over-simplification. Xinyu Says makes learning fun and easy whithout leaving anything out.</p>
+                <a href="#newsletterForm" class="button">Start Your Journey</a>
+            </div>
+            <div id="topImage">
+                <div id="imageView">
+                    <img id="topLantern" src="https://jackisbuilding.com/images/landingpage/lantern.webp"></img>
+                </div>
+            </div>
+        </div>
+
+        <div id="featuresSection">
+            <div id="feature1" class="leftFeature">
+                <div id="feature1Text" class="leftFeatureText">
+                    <p>Learn Chinese through games!</p>
+                </div>
+                <img src="https://xinyusays.com/images/pandaTennis.svg" class="slideImage pandaTennis move" id="pandaTennis"></img>
+            </div>
+            <div id="feature2" class="rightFeature">
+                <div id="feature2Text" class="rightFeatureText">
+                    <p>Clearly labeled courses from general language knowledge to specific topics!</p>
+                </div>
+                <img src="https://xinyusays.com/images/pandaLayOnBack.svg" class="slideImage pandaLayOnBack moveRight" id="pandaLayOnBack"></img>
+            </div>
+        </div>
+
+        <div id="featuresSection2">
+            <div id="feature3" class="leftFeature">
+                <div id="feature3Text" class="leftFeatureText">
+                    <p>Learn every last detail: These cources were made to avoid bad habbits through over-simplification while staying fun, and easy!</p>
+                </div>
+                <img src="https://xinyusays.com/images/pandaSmile.svg" class="slideImage pandaSmile move" id="pandaSmile"></img>
+            </div>
+            <div id="feature4" class="rightFeature">
+                <div id="feature4Text" class="rightFeatureText">
+                    <p>Useful topics in a useful order: We've been to many countries, so we know from experience what topics are useful when visiting, living, and doing bussiness.</p>
+                </div>
+                <img src="https://xinyusays.com/images/pandaUmbrella.svg" class="slideImage pandaUmbrella moveRight" id="pandaUmbrella"></img>
+            </div>
+        </div>
+
+        <div id="newsletterForm">
+            <div id="formFrame">
+                <div id="bottomImage">
+                    <img id="bottomLantern" src="https://jackisbuilding.com/images/landingpage/lantern.webp"></img>
+                </div>
+
+                <div id="signUp">
+                    <h2>Never miss a new course, <br>sign up for the newsletter now!</h2>
+                    <form action="PHP/signUp.php" method="POST" enctype="multipart/form-data" id="form">
+                        <span class="noBreak">
+                            <label for="name" class="formLabels">Name:</label>
+                            <input type="text" id="name" name="name">
+                        </span>
+                        <br><br>
+                        <span class="noBreak">
+                            <label for="emailAddress" class="formLabels"><span id="required">*</span>Email Address:</label>
+                            <input type="email" id="emailAddress" name="emailAddress">
+                        </span>
+                        <p id="requiredExplaination">*required</p>
+
+                        <input type="submit" id="submit" name="submit" value="Confirm" class="button"><br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/getUpdates.js"></script>
+  </body>
+</html>
+
