@@ -60,7 +60,7 @@
     }
     #topImage
     {
-        height:43% !important;
+        height:34% !important;
     }
     #imageView
     {
@@ -118,11 +118,11 @@
     }
     #formFrame h2
     {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     #formFrame label
     {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     #signUp
     {
@@ -140,6 +140,24 @@
     {
         font-size: 0.7rem !important;
     }
+    #name, #emailAddress
+    {
+        min-height:48px !important;
+    }
+    #name
+    {
+        margin-bottom:8px;
+    }
+    #signUp h2
+    {
+        margin-bottom:8px !important;
+        margin-top:0px !important;
+    }
+    #requiredExplaination
+    {
+        padding: 0 !important;
+        margin:8px 0 !important;
+    }
 }
 
 /* Desktop */
@@ -154,7 +172,7 @@ html, body, #mainContainer
 #topSection
 {
     height:43vw;
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://jackisbuilding.com/images/landingpage/background.png");
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://xinyusays.com/images/background.png");
     background-color: rgba(37,37,38,1);
     background-repeat: no-repeat;
     background-position: center;
@@ -209,6 +227,7 @@ p
 {
     max-width:130%;
     height:100%;
+    width: 100%;
 }
 
 #featuresSection, #featuresSection2
@@ -373,11 +392,11 @@ p
 }
 #required
 {
-    color:red;
+    color:rgb(255, 149, 149);
 }
 #requiredExplaination
 {
-    color:red;
+    color:rgb(255, 149, 149);
     font-size: 0.5rem;
 }
 .button
